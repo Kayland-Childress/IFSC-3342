@@ -8,8 +8,8 @@
 body {
   text-align: center;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  background-image: url("../img/bg-tile.jpg");/*check back on this*/
-  background-repeat: repeat-x;/*check back on this*/
+  background-image: url("../img/bg-tile.jpg"); /*check back on this*/
+  background-repeat: repeat-x;
   background-color: #171717;
   font-size: 16px;
   line-height: 1.5em;
