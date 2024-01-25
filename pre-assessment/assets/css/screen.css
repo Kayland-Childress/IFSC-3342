@@ -23,10 +23,15 @@ body {
   margin-top: 20px;
   border: 1px solid #ccc;
 }
-/*  #header {
-}
+
 #header h1 a {
-}   */
+  background-image: url("../resources/assessment-2.jpg");
+  display: block;
+  height: 140px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
 #nav {
   background-color: #000;
 }
@@ -65,14 +70,63 @@ body {
   margin-top: 5px;
   margin-bottom: 15px;
 }
+
+.alert {
+  /*background-color: #DCBD62;*/
+  background-color: #d57a5b;
+  color: #53410a;
+}
+
+#content dt {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+h2 {
+  background-color: #d57a5b;
+}
+
+h3 {
+  background-color: #addee5;
+}
+
+h4 {
+  background-color: #afc09c;
+}
+#content #shein {
+  color: #d59ea1;
+}
+
+#content #shein:hover {
+  color: #dcbd62;
+}
+
+.xx {
+  float: right;
+  border: 2px solid #dcbd62;
+  padding: 5px;
+  margin: 20px 0 20px 20px;
+}
+
 #footer {
   background-color: #000;
   color: #fff;
   height: 25px;
 }
+
 #footer h6 {
   font-size: 12px;
   line-height: 25px;
   margin-right: 20px;
   margin-left: 20px;
+}
+
+#footer a {
+  color: white;
 }
