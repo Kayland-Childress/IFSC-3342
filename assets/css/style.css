@@ -1,9 +1,7 @@
 /*Cource Home Page Stylesheet*/
 
 html {
-  color: black;
-  font-size: 1em;
-  line-height: 1.4;
+  box-sizing: border-box;
 }
 
 ::-moz-selection {
@@ -139,3 +137,42 @@ textarea {
     page-break-after: avoid;
   }
 }
+
+/*===================
+  My Theme
+====================*/
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/bg-web.jpg");
+  height: 100vh;
+
+  font-family: "Lato", sans-serif;
+  color: white;
+  
+}
+
+.primary h1 {
+  font-family: "Lobster", sans-serif;
+  font-size: 6em;
+}
+
+#container {
+  background-color: rgba(129, 80, 102, 0.4);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
