@@ -4,8 +4,6 @@ html {
   box-sizing: border-box;
 }
 
-
-
 /*===================
   My Theme
 ====================*/
@@ -26,7 +24,7 @@ body {
 
   font-family: "Lato", sans-serif;
   color: white;
-  
+
   position: relative;
   align-content: center;
   text-align: center;
@@ -51,10 +49,8 @@ a {
   font-size: 2em;
 }
 
-
 nav {
   display: flex;
-
 }
 
 menu {
@@ -63,5 +59,4 @@ menu {
 
 menuitem {
   display: flex;
-
 }
